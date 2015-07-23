@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-ie-check",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Provides a simple service to check if the client browser is a version of IE",
   "directories": {
     "doc": "doc",
