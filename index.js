@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-ie-check'
+  name: 'ember-cli-ie-check',
+
+  isDevelopingAddon: function() {
+    return true;
+  }
 };

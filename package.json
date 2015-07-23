@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-ie-check",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Provides a simple service to check if the client browser is a version of IE",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,15 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sportly/ember-cli-ie-check.git"
+  },
+  "bugs": "https://github.com/sportly/ember-cli-ie-check/issues",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Kyle Nathan",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -37,7 +41,12 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "internet explorer",
+    "ie",
+    "ie8",
+    "ie7",
+    "ie6"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"

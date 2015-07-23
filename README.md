@@ -1,25 +1,22 @@
-# Ember-cli-ie-check
+# ember-cli-ie-check
 
-This README outlines the details of collaborating on this Ember addon.
+This ember-cli addon provide a service wrapping a simple function to check if the client browser is
+
+The check function is from here https://gist.github.com/paulirish/357741
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install:addon ember-cli-ie-check
+```
 
-## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+## Usage
 
-## Running Tests
+The function isIE(version, comparison) is available on a service named ieCheck injected into routes and controllers.
 
-* `ember test`
-* `ember test --server`
+```
+this.ieCheck.isIE(8, 'lte');
+```
 
-## Building
 
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
